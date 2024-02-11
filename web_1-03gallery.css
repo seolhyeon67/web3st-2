@@ -1,0 +1,136 @@
+* {
+    margin: 0px; padding: 0px;
+    font-family: Verdana;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+}
+nav {
+    width: 1180px; height: 120px; margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+}
+h1 {
+    color: rgb(102, 101, 101);
+    left: 10px; bottom: 15px;
+    position: absolute;
+}
+nav .ul1 {
+    right: 0px; bottom: 0px;
+    position: absolute;
+    overflow: hidden;
+}
+nav .ul1 li {
+    list-style: none;
+    float: left;
+    padding: 15px 30px;
+}
+nav .ul1 a {color: rgb(102, 101, 101); text-decoration: none;}
+nav .ul1 a:hover {color: blue;}
+nav .ul2 {
+    right: 30px; top:20px;
+    position: absolute;
+    overflow: hidden;
+}
+nav .ul2 li {
+    font-size: small;
+    list-style: none;
+    float: left;
+    padding-left: 15px;
+}
+nav .ul2 a {color: gray; text-decoration: none;}
+section {
+    padding-top: 122.5px;
+    width: 1000px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+article {
+    margin: 5px 0px;
+    float: left; 
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
+}
+article.inner1 {
+    width: 700px; height: 400px;
+    margin-right: 10px;
+    position: relative;
+}
+article.inner1 p {
+    font-size: 30px; 
+    position: absolute;
+    right: 10px; bottom: 10px;
+}
+article.inner2 {
+    width: 290px; height: 190px;
+    position: relative;
+}
+article.inner2 p {
+    position: absolute;
+    top: 50px; left: 10px;
+}
+article.inner3 {
+    position: relative;
+    width: 290px; height: 95px;
+}
+article.inner3 p {
+    position: absolute;
+    right: 10px; bottom: 20px;
+}
+article.inner4 {
+    width: 490px; height: 490px;
+    position: relative;
+}
+article.inner4 .inner4-2 {
+    position: relative;
+    top: 5px;
+}
+article.inner4 .inner4-1 p {
+    width: 300px;
+    position: absolute;
+    top: 160px; left: 20%;
+    color: black;
+    font-weight: 100;
+    font-size: medium;
+}
+article.inner4 .inner4-2 p {
+    position: absolute;
+    right: 20px; bottom: 30px;
+    font-size: 30px; color: gold;
+}
+article.inner5 {
+    width: 500px; height: 490px;
+    position: relative;
+    left: 10px;
+}
+article.inner6 {
+    background: url(1000x371.png);
+    width: 1000px; height: 371px;
+}
+article.inner6 p {
+    line-height: 371px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 1000px; height: 50px;
+    text-shadow: 2px black;
+}
+article.inner7 {
+    float:left;
+    position: relative;
+}
+article.inner7 .p {
+    width: 450px; height: 150px;
+    position: absolute;
+    right: 30px; bottom: 40px;
+    font-weight: 100;
+    font-size: 20px;
+}
+article.inner7 .gg {
+    font-size: 30px; font-weight: bold;
+}
+

@@ -1,0 +1,103 @@
+* {
+    margin: 0px; padding: 0px;
+    font-family: Verdana;
+}
+header {
+    width: 100%;
+}
+nav {
+    width: 1180px; height: 120px; margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+}
+h1 {
+    color: rgb(102, 101, 101);
+    left: 10px; bottom: 15px;
+    position: absolute;
+}
+nav .ul1 {
+    right: 0px; bottom: 0px;
+    position: absolute;
+    overflow: hidden;
+}
+nav .ul1 li {
+    list-style: none;
+    float: left;
+    padding: 15px 30px;
+}
+nav .ul1 a {color: rgb(102, 101, 101); text-decoration: none;}
+nav .ul1 a:hover {color: blue;}
+nav .ul2 {
+    right: 30px; top:20px;
+    position: absolute;
+    overflow: hidden;
+}
+nav .ul2 li {
+    font-size: small;
+    list-style: none;
+    float: left;
+    padding-left: 15px;
+}
+nav .ul2 a {color: gray; text-decoration: none;}
+#main {
+    width: 100%; height: 590px;
+    background-image: url(bg_main.png);
+    margin: 0px auto;
+    position: relative;
+}
+#main .inner_box {
+    color: white;
+    width: 800px; height: 300px;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 20%;
+}
+#main .inner_box .title {font-size: 80px; font-weight: bolder;}
+section {
+    padding-top: 52px;
+    width: 1180px; height: 450px;
+    margin: 0px auto;
+    text-align: center;
+}
+article {
+    text-align: left;
+    width: 230px; height: auto;
+    float: left;
+    margin: 52px 32.5px;
+}
+g{
+    line-height: 30px;
+    font-weight: bold;
+}
+footer {
+    color: rgb(102, 101, 101);
+    width: 100%; height: 210px;
+    background-color: rgb(31, 31, 54);
+    position: relative;
+}
+footer .inner_box {
+    margin: 0px auto;
+    width: 1000px; height: 100px;
+    position: relative;
+}
+footer .ul3 {
+    right: 20px; bottom: 15px;
+    position: absolute;
+}
+footer .ul3 li {
+    font-size: small;
+    padding: 0px 5px;
+    color: rgb(102, 101, 101);
+    list-style: none;
+    float: left;
+}
+footer .ul3 a {color: rgb(102, 101, 101); text-decoration: none;}
+footer .ul3 a:hover {color: blue;}
+.ul4 {
+    line-height: 20px;
+    width: 1000px; height: 100px;
+    margin: 0px auto;
+    font-size: smaller;
+    list-style: none;
+}
